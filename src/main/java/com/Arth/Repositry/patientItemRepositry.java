@@ -30,6 +30,9 @@ public interface patientItemRepositry extends JpaRepository<patientItemEntity, I
 	      
 	      List<patientItemdto> findByPatientItemlist();
 	      
+	      @Query(value = "SELECT * FROM patient_item WHERE patient_id = :patientId", nativeQuery = true)
+		    List<patientItemEntity> findByPatientIds(Integer patientId);
+	      
 	
 	
 

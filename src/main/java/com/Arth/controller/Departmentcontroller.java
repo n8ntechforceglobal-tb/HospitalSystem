@@ -13,6 +13,8 @@ import com.Arth.Entity.DepartmentEntity;
 import com.Arth.Entity.RoleEntity;
 import com.Arth.Repositry.DepartmentRepositry;
 
+//controller
+
 @Controller
 public class Departmentcontroller {
 

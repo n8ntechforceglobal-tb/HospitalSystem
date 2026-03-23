@@ -31,6 +31,8 @@ import com.Arth.dto.Appoinmentdto;
 import com.Arth.dto.iteamdto;
 import com.Arth.dto.paymentsdto;
 
+//controller
+
 @Controller
 public class AdminController {
 
@@ -160,6 +162,7 @@ public class AdminController {
 
 		return "Adminpharmacist";
 	}
+
 
 	@GetMapping("AdminPayments")
 	public String AdminPayments(PharmistEntity pharmistEntity, Model model) {

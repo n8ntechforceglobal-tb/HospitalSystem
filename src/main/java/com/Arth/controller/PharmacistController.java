@@ -22,6 +22,8 @@ import com.Arth.Repositry.PharmacistRepositry;
 import com.Arth.Repositry.patientItemRepositry;
 import com.Arth.dto.iteamdto;
 
+//controller
+
 @Controller
 public class PharmacistController {
 

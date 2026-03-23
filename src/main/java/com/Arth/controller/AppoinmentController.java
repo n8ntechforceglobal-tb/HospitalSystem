@@ -29,6 +29,8 @@ import com.Arth.service.appoinmentmail;
 import jakarta.mail.Session;
 import jakarta.servlet.http.HttpSession;
 
+//controller
+
 @Controller
 public class AppoinmentController {
 

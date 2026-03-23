@@ -14,6 +14,8 @@ import com.Arth.Entity.Ratetype;
 
 import com.Arth.Repositry.RatetypeRipositry;
 
+//controller
+
 @Controller
 public class Ratetypecontroller {
 
